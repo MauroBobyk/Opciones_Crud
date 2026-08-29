@@ -103,17 +103,6 @@ Las tres versiones usan la misma base de datos:
 
 ---
 
-## 7. Notas de cátedra (docente de informática)
-
-El proyecto se plantea como una **práctica integral de programación web** orientada a:
-
-- Comparar el impacto del **diseño de interfaz** (claro, panel y oscuro) sobre la misma lógica de negocio.
-- Consolidar el ciclo completo de un **CRUD** con **PDO** y consultas preparadas.
-- Aplicar seguridad básica en el manejo de datos y buenas prácticas de estructura de archivos.
-- Analizar cómo la **centralización de la configuración** (`config.php`) simplifica el mantenimiento.
-
-**Consigna sugerida de trabajo:** agregar una cuarta versión con un diseño propio (por ejemplo, tarjetas en cuadrícula o interfaz minimalista) manteniendo el mismo sistema, y documentarla en su `README.md`.
-
 ---
 
 *Aplicación realizada por el profesor Mauro Andrés Bobyk.*
