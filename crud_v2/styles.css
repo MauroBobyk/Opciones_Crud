@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f7f7f9;
+}
+
+.crud-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.crud-sidebar {
+    width: 240px;
+    background: linear-gradient(180deg, #0d6efd, #6610f2);
+    color: #fff;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.crud-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.crud-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.crud-nav-link {
+    display: block;
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.crud-nav-link:hover {
+    background: rgba(255,255,255,0.15);
+    transform: translateX(2px);
+}
+
+.crud-nav-link.active {
+    background: rgba(255,255,255,0.25);
+}
+
+/* Main */
+.crud-main {
+    flex: 1;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.crud-header {
+    margin-bottom: 1.5rem;
+}
+
+.crud-main-content {
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+}
+
+.crud-actions .btn {
+    margin-right: 0.25rem;
+}
+
+/* Footer */
+.crud-footer {
+    text-align: center;
+    color: #6c757d;
+    padding: 1rem;
+    margin-top: auto;
+    border-top: 1px solid #e9ecef;
+    font-size: 0.9rem;
+}

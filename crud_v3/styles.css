@@ -1,0 +1,103 @@
+:root {
+    color-scheme: dark;
+}
+
+.dark-body {
+    margin: 0;
+    background: radial-gradient(circle at top, #202040, #050510);
+    color: #f8f9fa;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.dark-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    background: rgba(5,5,20,0.8);
+    backdrop-filter: blur(8px);
+}
+
+.dark-header-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-badge {
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.3);
+    font-size: 0.8rem;
+}
+
+.dark-main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.dark-card {
+    background: radial-gradient(circle at top left, #343a40, #181820);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 1.5rem;
+}
+
+.dark-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.dark-table-container {
+    margin-top: 1.5rem;
+}
+
+.dark-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: rgba(15,15,30,0.95);
+}
+
+.dark-table th,
+.dark-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.dark-table th {
+    text-align: left;
+    background: rgba(255,255,255,0.05);
+    font-weight: 600;
+}
+
+.dark-table tr:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+.dark-form {
+    background: rgba(15,15,30,0.95);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+a {
+    color: #0d6efd;
+}
+
+/* Footer */
+.dark-footer {
+    text-align: center;
+    color: #9ca3af;
+    padding: 1.25rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    font-size: 0.9rem;
+}

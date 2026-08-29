@@ -1,0 +1,44 @@
+body {
+    background-color: #f5f5f5;
+}
+
+/* Tarjetas del menú */
+.crud-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 0.75rem;
+}
+
+.crud-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* Tabla */
+.crud-table {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Formularios (crear / modificar) */
+.crud-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.crud-form-container form {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+.crud-footer {
+    text-align: center;
+    color: #6c757d;
+    padding: 1.25rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+}

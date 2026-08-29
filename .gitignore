@@ -1,0 +1,13 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+*.swp
+*.swo
+
+# Entornos y dependencias (por si se agregan más adelante)
+/vendor/
+node_modules/
+.env
